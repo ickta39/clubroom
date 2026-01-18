@@ -12,10 +12,10 @@
 ### レポジトリをクローン（ダウンロード）します。
 ```bash
 # レポジトリをクローン
-git clone https://github.com/ickta39/Clubroom.git
+git clone https://github.com/ickta39/clubroom.git
 
 # レポジトリの中に移動
-cd Clubroom/
+cd clubroom/
 ```
 
 ### 仮想環境venvの構築（オプション）
