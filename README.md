@@ -10,7 +10,7 @@
 ## 環境構築
 
 ### レポジトリをクローン（ダウンロード）します。
-```
+```bash
 # レポジトリをクローン
 git clone https://github.com/ickta39/Clubroom.git
 
@@ -20,7 +20,7 @@ cd Clubroom/
 
 ### 仮想環境venvの構築（オプション）
 このvenvを構築すると、プロジェクトごとに仮想的なPythonの環境が作成され、別のプロジェクトとのライブラリの競合を避けることができます。
-```
+```bash
 # venvの構築
 python -m venv .venv
 
@@ -36,7 +36,7 @@ source .venv/Scripts/activate
 ```
 
 ### ライブラリのインストール
-```
+```bash
 # requirements.txt内のライブラリを一括でインストール
 python -m pip install -r requirements.txt
 ```
@@ -50,6 +50,7 @@ GOOGLE_SERVER_METADATA_URL=https://accounts.google.com/.well-known/openid-config
 ```
 
 以上の設定ができると、ポート8000番にHTTPサーバーを実行します。
-```
+```bash
+# 実行
 python main.py
 ```
